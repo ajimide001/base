@@ -34,6 +34,9 @@ class SetAccountError(CookiePoolError):
     def __str__(self):
         return repr('Set Account Error')
 
+class GetAccountError(CookiePoolError):
+    def __str__(self):
+        return repr('Get Account Errot')
 
 class GetAllAccountError(CookiePoolError):
     def __str__(self):
